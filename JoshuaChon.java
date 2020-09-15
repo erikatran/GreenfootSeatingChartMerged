@@ -54,6 +54,15 @@ public class JoshuaChon extends Student implements SpecialInterestOrHobby
        sitting=true;
     }
     
+    protected int period = 2; //Assign period number
+    public void setPeriod(int p) {
+        period = p;
+    } //Sets period
+    
+    public int getPeriod() {
+        return period;
+    } //Returns period
+    
      /**
      * Act - do whatever the KilgoreTrout actor wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

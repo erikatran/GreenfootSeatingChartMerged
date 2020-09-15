@@ -51,6 +51,15 @@ public class JennyWang extends Student implements SpecialInterestOrHobby
         sitting=true;
     }
     
+    protected int period = 3; //Assign period number
+    public void setPeriod(int p) {
+        period = p;
+    } //Sets period
+    
+    public int getPeriod() {
+        return period;
+    } //Returns period
+    
     /**
      * Act - do whatever the JennyWang actor wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.

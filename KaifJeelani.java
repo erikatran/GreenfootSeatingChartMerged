@@ -79,6 +79,16 @@ public class KaifJeelani extends Student implements SpecialInterestOrHobby
     public void getName(){
         System.out.println("My name is " + firstName + " " + lastName);
     }
+    
+    protected int period = 2; //Assign period number
+    public void setPeriod(int p) {
+        period = p;
+    } //Sets period
+    
+    public int getPeriod() {
+        return period;
+    } //Returns period
+    
     /**
      * This method needs to allow the user to interact with the student through a question and answer interface, and provide
      * some mechanism that allows the student to sit down once the Q&A session ends.  You can use this basic model, or come up

@@ -66,6 +66,15 @@ public class DerekXu extends Student implements SpecialInterest, CSALearnedSoFar
         
     } 
     
+    protected int period = 2; //Assign period number
+    public void setPeriod(int p) {
+        period = p;
+    } //Sets period
+    
+    public int getPeriod() {
+        return period;
+    } //Returns period
+    
     /**
      * Prints the first and last name to the console
      */
