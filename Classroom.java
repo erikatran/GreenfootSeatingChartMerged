@@ -100,6 +100,46 @@ public class Classroom extends World
         KaifJeelani kaifjeelani = new KaifJeelani("Kaif", "Jeelani", 1, 4);
         addObject(kaifjeelani, 1, 4);
         kaifjeelani.sitDown();
+         
+        EricZheng ericzheng = new EricZheng("Eric", "Zheng", 6, 1);
+        addObject(ericzheng, 6, 1);
+        ericzheng.sitDown();
+
+        ArvindKumar arvindkumar = new ArvindKumar("Arvind", "Kumar", 3, 3);
+        addObject(arvindkumar, 3, 3);
+        arvindkumar.sitDown();
+         
+        RidhiTamirasa rtk = new RidhiTamirasa("Ridhi", "Tamirasa", 2, 3);
+        addObject(rtk, 2, 3);
+        rtk.sitDown();
+
+        AkashDarbha akashdarbha = new AkashDarbha("Akash", "Darbha", 3, 4);
+        addObject(akashdarbha, 3, 4);
+        akashdarbha.sitDown();  
+
+        SharvinM SharvinManjrekar = new SharvinM("Sharvin", "Manjrekar", 4, 4);
+        addObject(SharvinManjrekar, 4, 4);
+        SharvinManjrekar.sitDown();
+  
+        KeenanKalra keenankalra = new KeenanKalra("Keenan", "Kalra", 2, 2);
+        addObject(keenankalra, 2, 2);
+        keenankalra.sitDown();
+
+        AnirudhNagasamudra anirudhnagasamudra = new AnirudhNagasamudra("Anirudh", "Nagasamudra", 5, 4);
+        addObject(anirudhnagasamudra, 5, 4);
+        anirudhnagasamudra.sitDown();
+        
+        TinhphongN tinhphongnguyen = new TinhphongN("Tinhphong", "Nguyen", 1, 2);
+        addObject(tinhphongnguyen, 1, 2);
+        tinhphongnguyen.sitDown();
+       
+        ChelseaLee chelsealee = new ChelseaLee("Chelsea", "Lee", 4, 2);
+        addObject(chelsealee, 4, 2);
+        chelsealee.sitDown();
+        
+        TanishB tanishbaranwal = new TanishB("Tanish", "Baranwal", 4, 1);
+        addObject(tanishbaranwal, 4, 1);
+        tanishbaranwal.sitDown();  
         
         JennyWang jennywang = new JennyWang("Jenny", "Wang", 2, 2);
         addObject(jennywang, 2, 2);
@@ -113,6 +153,9 @@ public class Classroom extends World
         addObject(eeshanwalia, 2, 4);
         eeshanwalia.sitDown();
         
+        OmerAhmer omerahmer = new OmerAhmer("Omer", "Ahmer", 2, 5);
+        addObject(omerahmer, 2, 5);
+        omerahmer.sitDown();
     }
 }
 
