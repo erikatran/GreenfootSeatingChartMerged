@@ -63,3 +63,13 @@ git commit -m “adding my files to the repository”
 
 8) Push your changes to the remote repository:
 
+Instructions on how to use TogglePeriodBtn:
+
+1) If student is currently in period 2, add their class constructor, row and seat number under if (currentPeriod == 2) and assign each student a different seat
+
+2) If student is currently in period 3, add their class constructor, row and seat number under if (currentPeriod == 3) and assign each student a different seat
+
+3) Ensure no student is in the same seat as the TogglePeriodBtn (1, 1)
+
+4) When done, click on Toggle Period Button to switch between class periods.
+
